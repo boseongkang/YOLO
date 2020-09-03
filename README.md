@@ -94,3 +94,14 @@ $ git ls-tree HEAD
 100755 blob dfd5446b47dec059d2d8a3e3831ec95b707e0441    build.sh
 ```
 
+<hr>
+
+## iteration map
+
+iteration map을 보고 싶다면 -dont_show -map flag  반드시 줘야 한다. 
+
+```python
+!./darknet detector train build/darknet/x64/data/obj.data build/darknet/x64/cfg/yolov4train.cfg yolov4.conv.137 -gpu 1 -dont_show -map flag 
+```
+
+/content/darknet 폴더 아래 chart.png 라는 파일이 생긴다. 
