@@ -1,3 +1,5 @@
+20.09.07 google colab에서 webcam 켜는 코드 추가
+
 ## Darknet을 colab에서 사용하기
 
 <hr>
